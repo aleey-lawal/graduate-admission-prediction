@@ -2,6 +2,13 @@
 
 A data-driven machine learning project that models graduate admission outcomes using Logistic Regression. This project transforms applicant profiles into probabilistic insights to support informed decision-making.
 
+The original dataset had 500 rows and 9 columns. Cleaning steps: (1) dropped the auto-generated index column Serial No. and Unnamed: 0; (2) stripped trailing whitespace from column names; (3) renamed the target column to Admission_Outcome; (4) confirmed zero nulls and zero duplicates. No imputation was required.
+
+## Dataset
+**Source:** [Graduate Admissions – Kaggle](https://www.kaggle.com/datasets/mohansacharya/graduate-admissions)  
+**Author:** Mohan S Acharya  
+**License:** CC0: Public Domain
+
 ---
 
 ## 📌 Overview
